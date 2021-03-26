@@ -1,0 +1,22 @@
+.container button{
+    background: #222;      
+    transition: all ease-in-out 800ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #222 solid;
+}
+
+.container .label {
+    color: #fff;
+    font-weight: 500;
+}
+
+.container button:hover{
+    background: #fff;
+    border-color: #222;
+}
+
+.container button:hover .label {
+    color: #222;
+}
