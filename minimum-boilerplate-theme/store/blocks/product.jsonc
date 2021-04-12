@@ -1,56 +1,69 @@
 {
   "store.product": {
     "children": [
-      "breadcrumb",
-      "flex-layout.row#main"
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main"
     ]
   },
-  "flex-layout.row#main": {
+  "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 6
+      "marginTop": 20
     },
-    "children": [
-      "flex-layout.col#left",
-      "flex-layout.col#right"
-    ]
+    "children": ["breadcrumb"]
   },
-  "flex-layout.col#left": {
-    "children": [
-      "product-images"
-    ]
-  },
-  "flex-layout.col#right": {
-    "children": [
-      "product-name",
-      "product-identifier.product",
-      "product-price",
-      "flex-layout.row#qty-sku",
-      "shipping-simulator",
-      "buy-button"
-    ]
-  },
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector",
-      "product-quantity"
-    ]
-  },
-  "product-quantity": {
+  "flex-layout.row#product-main": {
     "props": {
-      "warningQuantityThreshold": 9999999,
-      "showUnit": true
-    }
+      "colGap": 9,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product-main"
+    },
+    "children": ["product-images", "flex-layout.col#right-col"]
   },
   "product-images": {
     "props": {
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "vertical"
     }
   },
-  "product-price": {
+  "flex-layout.col#right-col": {
     "props": {
-      "showSavings": true,
-      "showListPrice": true
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-price#product-details",
+      "sku-selector",
+      "flex-layout.row#buy-button",
+      "shipping-simulator",
+      "share#default"
+    ]
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["buy-button"]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
     }
   }
-  
 }
