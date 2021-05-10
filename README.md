@@ -65,3 +65,8 @@ If the process runs without any errors, the following message will be displayed:
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
 ## MY WORKSPACE -> workspacerodolfodev
+
+
+### GLOSSARY
+
+##### Query schema -> A query schema é uma das [props do search result custom query](https://developers.vtex.com/vtex-developer-docs/docs/vtex-search-result) com ela é possível controlar a busca que a nossa landing page deverá fazer. Para saber todas as possibilidades da query schema, [veja sua documentação aqui.](https://developers.vtex.com/vtex-developer-docs/docs/vtex-search-result#step-3---defining-how-the-search-query-data-should-be-fetched)
