@@ -1,0 +1,12 @@
+.stackContainer--home-center {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stackItem--home-center {
+    position: absolute;
+    top: auto;
+    left: auto;
+}

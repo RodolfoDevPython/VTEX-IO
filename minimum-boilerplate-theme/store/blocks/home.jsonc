@@ -9,7 +9,6 @@
       "info-card#button-right", 
       "info-card#button-left",
       "tab-layout#home",
-      "list-context.product-list",
       "stack-layout#cta"
     ]
   },
@@ -133,7 +132,10 @@
     "children": [
       "image#cta",
       "link#cta"
-    ]
+    ],
+    "props": {
+      "blockClass": "home-center"
+    }
   },
   "image#cta": {
     "props": {
@@ -146,12 +148,13 @@
   "link#cta": {
     "props": {
       "displayMode": "button",
+      "blockClass": "alignCenterHome",
       "buttonProps": {
         "variant": "primary",
         "size": "large"
       },
-      "href": "/washer",
-      "label": "Check these awesome discounts"
+      "href": "/about-us",
+      "label": "Sobre Nós"
     }
   }
     
