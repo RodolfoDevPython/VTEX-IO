@@ -4,6 +4,7 @@
       "responsive-layout.desktop#desktop", 
       "responsive-layout.mobile#mobile",
       "flex-layout.row", 
+      "__fold__",
       "slider-layout#home", 
       "rich-text", 
       "info-card#button-right", 

@@ -1,0 +1,22 @@
+{
+  "vtex.menu@2.x:menu#category-menu-new": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-category-electronics",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "categoryId": 153,
+            "type": "internal",
+            "href": "/electronics/",
+            "noFollow": true,
+            "tagTitle": "Electronics",
+            "text": "Electronics"
+          }
+        }
+      ]
+    }
+  }
+}

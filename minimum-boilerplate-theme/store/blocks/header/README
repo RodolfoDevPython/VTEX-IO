@@ -1,0 +1,41 @@
+INFORMAÇÕES IMPORTANTES DE PERFORMACE PARA MENUS 
+
+Em geral uma implementação de menu em uma loja segue o seguinte padrão (COMO ESTÁ EM category-menu-old.jsonc).
+mas conforme a doc indica https://learn.vtex.com/docs/course-store-performance-step02menu-items-lang-pt
+devemos usar o props ao invés de children por dois problemas.
+
+Existem dois problemas em implementar um menu desta forma:
+
+1 - Por se usar o children, o menu passa a ter implementação parecida com a de um layout, 
+    o que faz com que todo o conteúdo dentro dele não seja facilmente editável no Site Editor
+
+2 - Para cada novo menu que for criado, é necessária a definição de um novo bloco, 
+    o que aumenta o overhead dos blocos que são necessários para compor uma página
+
+
+INFORMAÇÕES INPORTANTES DE PERFORMACE PARA SUBMENUS 
+
+Com o menu em níveis agora definido, podemos adicionar uma nova prop ao menu pai, 
+a fim de prevenir que os submenus sejam carregados até que o usuário interaja com as categorias:
+
+para fazer o teste sigas as instruções
+
+No navegador, antes da URL do seu workspace adicione um view-source: e procure por title="Major Appliances", 
+você verá duas referências no código, uma para o header e outra para o footer. 
+Isto significa que quando carregamos o HTML estamos trazendo juntos esses menus, ainda que não estejam sendo consumidos no primeiro momento:
+
+print -> https://user-images.githubusercontent.com/18701182/93836918-a7299d80-fc5a-11ea-8804-0b2722742e17.png
+
+
+próximo passo: 
+
+Com o menu em níveis agora definido, podemos adicionar uma nova prop ao menu pai, 
+a fim de prevenir que os submenus sejam carregados até que o usuário interaja com as categorias:
+
+ex: 
+"props": {
+    "experimentalOptimizeRendering": true
+},
+
+segue a doc completa com a mesma abordagem -> https://learn.vtex.com/docs/course-store-performance-step03submenu-optimization-lang-pt
+ 
