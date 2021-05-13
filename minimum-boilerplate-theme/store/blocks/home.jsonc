@@ -10,8 +10,56 @@
       "info-card#button-right", 
       "info-card#button-left",
       "tab-layout#home",
-      "stack-layout#cta"
+      "stack-layout#cta",
+      "rich-text#new-arrivals",
+      "list-context.product-list#new-arrivals",
+      "rich-text#clearance",
+      "list-context.product-list#clearance"
     ]
+  },
+  "list-context.product-list#new-arrivals": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "139",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "New arrivals"
+      }
+    }
+  },
+  "list-context.product-list#clearance": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf"]
+  },
+  "rich-text#new-arrivals": {
+    "props": {
+      "text": "New arrivals",
+      "font": "t-heading-2",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER"
+    }
+  },
+  "rich-text#clearance": {
+    "props": {
+      "text": "Clearance",
+      "font": "t-heading-2",
+      "textPosition": "CENTER",
+      "textAlign": "CENTER"
+    }
+  },
+  "slider-layout#shelf": {
+    "props": {
+        "itemsPerPage": {
+          "desktop": 3
+        }
+      }
   },
   "responsive-layout.desktop#desktop": {
     "children": ["image#desktop","rich-text#desktop"]
