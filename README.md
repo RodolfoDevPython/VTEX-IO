@@ -73,7 +73,8 @@ This will enable you to see the applied changes in real time, through the accoun
 
 
 ### CHECK LIST -  VTEX.IO COURSE
-[x] - [Blocos básicos](https://learn.vtex.com/docs/course-basic-blocks-lang-pt);
+
+[x] - [Blocos básicos](https://learn.vtex.com/docs/course-basic-blocks-lang-pt)
 [x] - [Layouts complexos](https://learn.vtex.com/docs/course-layout-blocks-lang-pt)
 [x] - [Tornando sua loja única](https://learn.vtex.com/docs/course-styles-course-lang-pt)
 [x] - [Site Editor e conteúdo](https://learn.vtex.com/docs/course-content-workflow-lang-pt)
