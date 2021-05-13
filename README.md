@@ -70,3 +70,15 @@ This will enable you to see the applied changes in real time, through the accoun
 ### GLOSSARY
 
 ##### Query schema -> A query schema é uma das [props do search result custom query](https://developers.vtex.com/vtex-developer-docs/docs/vtex-search-result) com ela é possível controlar a busca que a nossa landing page deverá fazer. Para saber todas as possibilidades da query schema, [veja sua documentação aqui.](https://developers.vtex.com/vtex-developer-docs/docs/vtex-search-result#step-3---defining-how-the-search-query-data-should-be-fetched)
+
+
+CHECK LIST -  VTEX.IO COURSE
+[x] - [Blocos básicos](https://learn.vtex.com/docs/course-basic-blocks-lang-pt);
+[x] - [Layouts complexos](https://learn.vtex.com/docs/course-layout-blocks-lang-pt)
+[x] - [Tornando sua loja única](https://learn.vtex.com/docs/course-styles-course-lang-pt)
+[x] - [Site Editor e conteúdo](https://learn.vtex.com/docs/course-content-workflow-lang-pt)
+[x] - [Melhorando performance](https://learn.vtex.com/docs/course-store-performance-lang-pt)
+[] - [Blocos customizados](https://learn.vtex.com/docs/course-store-block-lang-pt)
+[] - [Serviços](https://learn.vtex.com/docs/course-service-course-lang-pt)
+[] - [Aplicações administrativas](https://learn.vtex.com/docs/course-admin-lang-pt)
+[] - [Chamando as APIs de Commerce](https://learn.vtex.com/docs/course-calling-commerce-apis-lang-pt)
