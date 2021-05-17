@@ -3,6 +3,8 @@
     "blocks": [
       "responsive-layout.desktop#desktop", 
       "responsive-layout.mobile#mobile",
+      "countdown",
+      "countdown.title",
       "flex-layout.row", 
       "__fold__",
       "slider-layout#home", 
@@ -10,11 +12,7 @@
       "info-card#button-right", 
       "info-card#button-left",
       "tab-layout#home",
-      "stack-layout#cta",
-      "rich-text#new-arrivals",
-      "list-context.product-list#new-arrivals",
-      "rich-text#clearance",
-      "list-context.product-list#clearance"
+      "stack-layout#cta"
     ]
   },
   "list-context.product-list#new-arrivals": {

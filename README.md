@@ -64,8 +64,6 @@ If the process runs without any errors, the following message will be displayed:
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
-## MY WORKSPACE -> workspacerodolfodev
-
 
 ### GLOSSARY
 
@@ -78,7 +76,9 @@ This will enable you to see the applied changes in real time, through the accoun
 [x] - [Tornando sua loja única](https://learn.vtex.com/docs/course-styles-course-lang-pt)
 [x] - [Site Editor e conteúdo](https://learn.vtex.com/docs/course-content-workflow-lang-pt)
 [x] - [Melhorando performance](https://learn.vtex.com/docs/course-store-performance-lang-pt)
-[] - [Blocos customizados](https://learn.vtex.com/docs/course-store-block-lang-pt)
+[x] - [Blocos customizados](https://learn.vtex.com/docs/course-store-block-lang-pt)
 [] - [Serviços](https://learn.vtex.com/docs/course-service-course-lang-pt)
 [] - [Aplicações administrativas](https://learn.vtex.com/docs/course-admin-lang-pt)
 [] - [Chamando as APIs de Commerce](https://learn.vtex.com/docs/course-calling-commerce-apis-lang-pt)
+
+## MY WORKSPACE -> workspacerodolfodev

@@ -35,6 +35,7 @@
       "rowGap": 0
     },
     "children": [
+      "countdown",
       "product-name",
       "product-price#product-details",
       "sku-selector",
