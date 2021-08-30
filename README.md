@@ -80,6 +80,6 @@ This will enable you to see the applied changes in real time, through the accoun
 - [x] [Blocos customizados](https://learn.vtex.com/docs/course-store-block-lang-pt)
 - [ ] [Serviços](https://learn.vtex.com/docs/course-service-course-lang-pt)
 - [ ] [Aplicações administrativas](https://learn.vtex.com/docs/course-admin-lang-pt)
-- [ ] [Chamando as APIs de Commerce](https://learn.vtex.com/docs/course-calling-commerce-apis-lang-pt)
+- [x] [Chamando as APIs de Commerce](https://learn.vtex.com/docs/course-calling-commerce-apis-lang-pt)
 
 ## MY WORKSPACE -> workspacerodolfodev

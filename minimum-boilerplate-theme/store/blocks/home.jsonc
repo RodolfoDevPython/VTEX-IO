@@ -3,8 +3,6 @@
     "blocks": [
       "responsive-layout.desktop#desktop", 
       "responsive-layout.mobile#mobile",
-      "countdown",
-      "countdown.title",
       "flex-layout.row", 
       "__fold__",
       "slider-layout#home", 
